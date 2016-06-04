@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cyan_background"
+    android:orientation="vertical"
+    android:padding="25dp" >
+	
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logs Are Shown Here ... Hey nube! u will not get anything here until you do some f****n&apos; transactions :D"
+        android:textSize="15dp"
+        tools:context=".DatabaseQueryActivity" />
+
+    <ListView
+        android:id="@+id/records_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

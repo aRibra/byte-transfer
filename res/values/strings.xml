@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">ByteTransfer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_byte_transfer">MainByteTransferActivity</string>
+    <string name="title_activity_splash">ByteTransfer</string>
+    <string name="title_activity_iplist">IPListActivity</string>
+    <string name="title_activity_ping_subnet">PingSubnetActivity</string>
+    <string name="title_activity_receive_ping">ReceivePingActivity</string>
+    <string name="title_activity_communication_screen">CommunicationScreenActivity</string>
+    <string name="title_activity_instant_messaging">InstantMessagingActivity</string>
+    <string name="title_activity_database_query">DatabaseQueryActivity</string>
+
+</resources>

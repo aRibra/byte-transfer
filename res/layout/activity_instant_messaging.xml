@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/cyan_background" >
+				
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+						
+        <TextView
+            android:id="@+id/chat_Log"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:text="" />
+    </ScrollView>
+		
+    <EditText
+        android:id="@+id/user_Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ScrollView"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/clear_button"
+        android:minWidth="100dip"
+        android:onClick="sendButton"
+        android:text="Send" />
+	
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="clearConversationButton"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/start_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_send"
+        android:layout_alignLeft="@+id/button_send"
+        android:layout_alignRight="@+id/clear_button"
+        android:text="Start Chatting!" />
+	
+</RelativeLayout>

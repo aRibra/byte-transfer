@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sf_log_item"
+        android:title="Sent Files Log">
+    </item>
+
+    <item
+        android:id="@+id/rf_log_item"
+        android:title="Received Files Log">
+    </item>
+
+    <item
+        android:id="@+id/im_log_item"
+        android:title="Instant Messaging Log">
+    </item>
+
+    <item
+        android:id="@+id/about_item"
+        android:title="About">
+    </item>
+
+    <item
+        android:id="@+id/exit_item"
+        android:title="Exit">
+    </item>
+
+</menu>

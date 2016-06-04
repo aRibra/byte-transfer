@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cyan_background"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="100" >
+
+    <TextView
+        android:id="@+id/comm_screen_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30px"
+        android:paddingTop="100px"
+        android:text="@string/hello_world"
+        tools:context=".CommunicationScreenActivity" />
+		
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="130px"
+        android:weightSum="100" >
+		
+        <Button
+            android:id="@+id/file_transfer_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="File Trasnfer" />
+
+        <Button
+            android:id="@+id/instant_msg_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Instant Messaging" />
+    </LinearLayout>
+
+</LinearLayout>
